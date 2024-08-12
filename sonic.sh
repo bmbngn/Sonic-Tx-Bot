@@ -56,7 +56,7 @@ const to = web3.Keypair.generate();
         web3.SystemProgram.transfer({
           fromPubkey: from.publicKey,
           toPubkey: to.publicKey,
-          lamports: web3.LAMPORTS_PER_SOL * 0.001,
+          lamports: web3.LAMPORTS_PER_SOL * 0.0007,
         }),
       );
     
